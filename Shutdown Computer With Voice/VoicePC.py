@@ -1,7 +1,7 @@
 # Importing required modules
 # importing pyttsx3
 # pip install pyttsx3, speechrecognition
-# pip install pyaudio - если не установилась, ниже
+# pip install pyaudio
 # pip install pipwin
 # pipwin install pyaudio
 import pyttsx3
@@ -9,7 +9,6 @@ import pyttsx3
 import speech_recognition as sr
 # importing os module
 import os
-
 
 # creating take_commands() function which
 # can take some audio, Recognize and return
